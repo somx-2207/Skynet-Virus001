@@ -1,0 +1,11 @@
+siop/
+├── common/
+│   ├── crypto_utils.py       # Key gen, encryption/decryption logic
+│   └── email_simulation.py   # Simulated email send
+├── platforms/
+│   ├── windows_ransom.py     # Windows-specific directories and GUI
+│   ├── linux_ransom.py       # Linux version
+│   └── macos_ransom.py       # macOS version
+├── decrypt.py                # Works cross-platform
+├── launcher.py               # Detects OS and launches correct version
+└── README.txt                # Instructions
